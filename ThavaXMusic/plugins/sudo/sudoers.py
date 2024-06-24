@@ -8,7 +8,6 @@ from ThavaXMusic.utils.database import add_sudo, remove_sudo
 from ThavaXMusic.utils.decorators.language import language
 from ThavaXMusic.utils.extraction import extract_user
 from ThavaXMusic.utils.inline import close_markup
-import config
 from config import BANNED_USERS, OWNER_ID, START_IMG_URL
 
 
