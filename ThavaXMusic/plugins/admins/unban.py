@@ -10,6 +10,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
     BadRequest
 )
 
+import config
 import datetime
 from ThavaXMusic import app
 
