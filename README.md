@@ -40,7 +40,7 @@
 </h3>
 
 - Get your [Necessary Variables](https://github.com/Thava-OX/ThavaXMusic/blob/main/sample.env)
- apt-get update && sudo apt-get upgrade -y`
+ `apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
 `sudo apt-get install python3-pip ffmpeg -y`
 - Install required packages by :
