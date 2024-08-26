@@ -6,11 +6,11 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "29343670"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "28010be97096919fe9511f8ddf1bfc54")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6880909457:AAGIMSvHx7GZzwuf-gvVEhYgzIvpdn4Sy78")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @TBN_StringGeneratorRobot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQGx42sAEk79crR7b0wFefPYHXUrVtsu33kSVVb62U3wB9YatekcTAHSSGenCrhobPNEMMyGeZn8oLwENnKChp7-fV5qXC-K9oFOC04B5TeC6gpWxOOLb1qmLwyznaCTMeVecg_xMLIUOM6XhTePQapmM8Fhv06eEshqmv5yaaYwL6yK2-mQgQiyQbIEha7MKHpCgtlA29gbspSlo9pyqAgotTpcNWIvTxVBw6GUbo89nKH5aSB-gmltZfne6yhThT3ISEgcsBIgYyDe4Hb7YSMic9ogMZua1ZZtQjhTCYDj8Gc3kKQqyFa2E866AJERYUjGBWpv7sHnqP3vhqq3smWEh9o8hAAAAAGR4MmKAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
