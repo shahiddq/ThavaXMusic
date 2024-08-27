@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "28435307"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "080f5bf6faf2a1656f5719db47eb9c2b")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6880909457:AAGIMSvHx7GZzwuf-gvVEhYgzIvpdn4Sy78")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ericabraham016:shahiddq12@musicbot.zmtpq.mongodb.net/?retryWrites=true&w=majority&appName=Musicbot")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -20,15 +20,15 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002232962113"))
 
-OWNER_ID = int(getenv("OWNER_ID", "1471469091"))
+OWNER_ID = int(getenv("OWNER_ID", "6436690546"))
 
 START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAIYJ2XDYrt9C1aT2TMAAVbvhu7GQt4pxQACOg4AAs7jGVZZ_1ODkCxOcx4E")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Thava X Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐆𝚯𝗝𝚯 𝖲𝚨𝚻𝚶𝐑𝚶")
 
-POWERED_BY = getenv("POWERED_BY", "˹ 𝐓ʜᴀᴠᴀ ✘ 𝐌ᴜꜱɪᴄ ˼")
+POWERED_BY = getenv("POWERED_BY", "˹ 𝐆ᴏᴊᴏ ✘ 𝐌ᴜꜱɪᴄ ˼")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TBNBotsNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TBNBotsNetworkSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/musictestttt")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/musictestttt")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @TBN_StringGeneratorRobot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQGx42sAEC2H2gCO7BmVi8ugDDBwZqbMJeSCQAzPsTDDWrrUVNG_Qf7ePrz78XAOoMgBxvx3_ALw8Y0vZezg2BWHFm7Rilfn_R5JIrZ7_TeytliioeOGMzxf9gh-KA9kZz5yufFyR4hiyQYDGKmIpfcvwU0GZtiFFdNBrTc2W4pIXGLD5OPhw3v2oeXh7dA51kZh94LpqtGCSmVMBwR0MWi5ELa3LGkCd513hz68aMfrNyMMZDfRv0jn3R54rEUCrEm1vZh8tp2qJEnXA6PQaeVwr03oi7cceL20pUqd01SA37wU5RkiM-f0Rs1lNFeNKZgRSg3bhByJX1-eDmpYoKbwGrte6AAAAAGR4MmKAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -86,7 +86,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/4901ceb88125d76898dad.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/cfde7fce2fb2c105c7451.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/30577470793677e5408ee.jpg"
