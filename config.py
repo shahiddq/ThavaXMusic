@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "28435307"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "080f5bf6faf2a1656f5719db47eb9c2b")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6880909457:AAGIMSvHx7GZzwuf-gvVEhYgzIvpdn4Sy78")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ericabraham016:shahiddq12@musicbot.zmtpq.mongodb.net/?retryWrites=true&w=majority&appName=Musicbot")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -20,13 +20,13 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002232962113"))
 
-OWNER_ID = int(getenv("OWNER_ID", "1471469091"))
+OWNER_ID = int(getenv("OWNER_ID", "6436690546"))
 
 START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAIYJ2XDYrt9C1aT2TMAAVbvhu7GQt4pxQACOg4AAs7jGVZZ_1ODkCxOcx4E")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Thava X Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 POWERED_BY = getenv("POWERED_BY", "˹ 𝐓ʜᴀᴠᴀ ✘ 𝐌ᴜꜱɪᴄ ˼")
 
